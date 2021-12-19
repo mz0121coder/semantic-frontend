@@ -67,4 +67,28 @@ html {
     display: flex;
     justify-content: space-evenly;
 }
+
+.card {
+    width: 30rem;
+    background-color: lightgreen;
+    padding: 4rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 1rem 1rem 1rem #000;
+}
+
+.card-img {
+    width: 100%;
+}
+
+.card-name{
+    font-size: 3rem;
+    font-weight: 900;
+    text-transform: uppercase;
+    letter-spacing: 0.5rem;
+    color: #111;
+    margin: 2rem 0;
+}
 /* End of Section 2 */
