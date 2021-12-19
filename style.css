@@ -36,4 +36,16 @@ html{
     letter-spacing: 0.5rem;
     text-shadow: .3rem .3rem .3rem #000;
 }
+
+.section-1-icons i{
+    font-size: 35rem;
+    color: #ffa500;
+    position: absolute;
+    transform: translate(-50%, -50%) scale(0);
+    text-shadow: .2rem .2rem .2rem #000;
+}
+
+.section-1-icons i.change{
+    transform: translate(-50%, -50%) scale(1);
+}
 /* End of Section 1 */
