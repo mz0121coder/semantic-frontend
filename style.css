@@ -487,7 +487,43 @@ margin-top: 10rem;
     height: 30rem;
 }
 
-@media (max-width:900px) {
-    
+@media (max-width: 900px) {
+    .navbar-link {
+        margin: 2rem;
+    }
+}
+
+.navbar-link i {
+    font-size: 4rem;
+}
+
+.navbar-link span {
+    font-size: 2rem;
+}
+
+@media(max-width: 700px) {
+    .section-heading {
+        font-size: 7rem;
+        margin: 0 10rem;
+    }
+
+    .section-1-icons {
+        font-size: 20rem;
+    }
+
+    .menu {
+        left: 2rem;
+    }
+
+    .section-4 {
+        height: 40rem;
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: center;
+    }
+
+    .section-4-text {
+        margin-bottom: 8rem;
+    }
 }
 /* End of Responsive breakpoints */
