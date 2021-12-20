@@ -110,6 +110,7 @@ html {
     box-shadow: .1rem .1rem .1rem #000, 
     -.1rem -.1rem .1rem #000;
     cursor: pointer;
+    z-index: 100; 
     transition: top .4s .2s;
 }
 
@@ -524,6 +525,15 @@ margin-top: 10rem;
 
     .section-4-text {
         margin-bottom: 8rem;
+    }
+}
+
+@media(max-width: 550px) {
+    html {
+        font-size: 40%;
+    }
+    .navbar-link {
+        margin: 0 .7rem;
     }
 }
 /* End of Responsive breakpoints */
