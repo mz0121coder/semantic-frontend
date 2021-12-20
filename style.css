@@ -162,10 +162,34 @@ html {
     margin: 4rem 1rem;
 }
 
+.gallery-link::before {
+    content: "";
+    position: absolute;
+    top: 2vw;
+    left: 80%;
+    width: .2rem 80%;
+    height: 80%;
+    background-color: #fff;
+}
+
+.gallery-link::after {
+    content: "";
+    position: absolute;
+    top: 30%;
+    left: 2rem;
+    width: 90%;
+    height: .2rem;
+    background-color: #fff;
+}
+
 .product-img {
     width: 24vw;
     height: 15vw;
     object-fit: cover;
+    box-shadow: .3rem .3rem .1rem #e92929, 
+    .5rem .5rem .1rem #a2e946, 
+    .7rem .7rem .1rem #297ce9, 
+    .9rem .9rem .1 rem #e92999;
 }
 
 .product-name {
