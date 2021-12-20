@@ -40,6 +40,11 @@ html {
     box-shadow: .2rem .2rem .2rem black;
 }
 
+.navbar.change {
+    top: 0;
+    transition: top .4s .2s;
+}
+
 .navbar-link {
     color: #aaa;
     margin: 0 4rem;
@@ -47,8 +52,38 @@ html {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    transition: color .3s;
+    opacity: 0;
+    transition: color .3s, opacity .2s;
 }
+
+.change.navbar-link {
+    opacity: 1;
+}
+
+.change .navbar-link:nth-child(1) {
+    transition: opacity .4s .5s,
+    color .3s;
+}
+
+.change .navbar-link:nth-child(2) {
+    transition: opacity .4s .6s,
+    color .3s;
+}
+
+.change .navbar-link:nth-child(3) {
+    transition: opacity .4s .7s,
+    color .3s;
+}
+
+/* .change .navbar-link:nth-child(4) {
+    transition: opacity .4s .8s,
+    color .3s;
+}
+
+.change .navbar-link:nth-child(5) {
+    transition: opacity .4s .9s,
+    color .3s;
+} */
 
 .navbar-link:hover {
     color: #fff;
@@ -75,6 +110,12 @@ html {
     box-shadow: .1rem .1rem .1rem #000, 
     -.1rem -.1rem .1rem #000;
     cursor: pointer;
+    transition: top .4s .2s;
+}
+
+.menu.change {
+    top: 15rem;
+    transition: top .4s;
 }
 
 .menu::before {
@@ -86,6 +127,11 @@ html {
     top: -15rem;
     left: calc(50% -.15rem);
     box-shadow: .1rem 0 .1rem #000;
+    transition: top .4s;
+}
+
+.navbar.change {
+    top: 0;
 }
 /* End of Navbar */
 
