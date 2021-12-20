@@ -14,9 +14,11 @@ Instead I focussed on writing clean, semantic HTML and CSS that is organised and
 ## User Story
 
 ```
-As a customer I can view a list of available cards on my mobile, tablet and desktop so that I can celebrate my new job.
+As a customer I can view a list of available cards on my mobile, tablet and desktop
+so that I can celebrate my new job.
 
-As a customer I can view more details of a card so that I can decide it's the right card for me before purchase.
+As a customer I can view more details of a card so that I can decide if
+it's the right card for me before purchase.
 ```
 
 ## Features
